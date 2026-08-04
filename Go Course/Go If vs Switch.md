@@ -1,10 +1,10 @@
-
+j
 ```go
 for {
 	if choice = 1 {
 		// Do some logic
 		continue	
-	} if else {
+	} else if{
 		// Exit
 		break
 	}
