@@ -197,9 +197,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fac8e6127e625c79",
+  "active": "c4d9fb5fa7a3f056",
   "lastOpenFiles": [
-    "Go Course/Untitled.md",
+    "Go Course/Packages & Modules.md",
+    "Go Course/Go Modules.md",
     "Go Course/Go Packages.md",
     "Go Course/Go If vs Switch.md",
     "Go Course/Go Variable Declaration.md",
@@ -211,7 +212,6 @@
     "Go Course/Go Error Handling.md",
     "WiFi.md",
     "2026-07-22.md",
-    "Go Course/Go Modules.md",
     "module.md",
     "Untitled.base",
     "Go Course",

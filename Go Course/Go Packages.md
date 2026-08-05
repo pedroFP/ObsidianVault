@@ -1,4 +1,16 @@
-> In go only functions, variables and constant that start with an uppercase character are available in other packages ❗
+A package is the smallest unit of code distribution in Go. It's a way to group Go source files together
+### Organization
+* A package is a subdirectory inside a Go workspace that contains Go source files.
+* Each file in the package declares its membership to the package with the `package` keyword at the top of the file
+### Purpose
+* Packages are used to organize code, manage dependencies and provide encapsulation.
+* To use code from another packages, you include it in the `import`statement
+
+***encapsulation**: means exposing only types, variables, and function that are meant to be used by other packages, while keeping the rest internal*
+
+---
+
+> In Go, only functions, variables and constant that start with an uppercase character are available in other packages ❗
 
 Each *package* within a [[Go Modules|module]] is a collection of source files in the same directory that are compiled together. A *package path* is the module path joined with the sub-directory  containing the package (relative to the module root).
 

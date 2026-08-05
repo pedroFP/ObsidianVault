@@ -1,0 +1,1 @@
+A **package** is a collection of Go source files that are compiled together and provide a namespace for code
