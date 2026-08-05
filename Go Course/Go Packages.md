@@ -1,8 +1,8 @@
 A package is the smallest unit of code distribution in Go. It's a way to group Go source files together
-### Organization
+## Organization
 * A package is a subdirectory inside a Go workspace that contains Go source files.
 * Each file in the package declares its membership to the package with the `package` keyword at the top of the file
-### Purpose
+## Purpose
 * Packages are used to organize code, manage dependencies and provide encapsulation.
 * To use code from another packages, you include it in the `import`statement
 
@@ -18,12 +18,14 @@ You can only declare **one package for each Go source file**.
 
 This is **invalid**:
 ```go
+// my-file.go
+
 package main
+
+package utils
 
 func main() {
 }
-
-package utils
 
 func Add(a, b int) int {
     return a + b
