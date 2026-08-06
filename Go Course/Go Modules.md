@@ -1,5 +1,4 @@
 > https://go.dev/ref/mod#modules-overview
-
 # A `module` Is a Collection of Go Packages
 A `module` is a collection of [[Go Packages|Go Packages]]  that are released, versioned, and distributed together. Modules can be downloaded directly from version control repositories (i.e GitHub) or from module proxy servers.
 
@@ -11,7 +10,7 @@ Modules are how Go manages dependencies.
 * A module declares its dependencies, and *Go's toolchain* can automatically download, manage and version those dependencies 
 ## Usage
 * Modules allow for reproductive builds by locking dependencies to specific versions.
-* Modules enable developers to work outisde of the traditional GOPATH by providing versioning and package management
+* Modules enable developers to work outside of the traditional GOPATH by providing versioning and package management
 	* **[[GOPATH]]** is a legacy workspace setting that is no longer required for modern Go development using Go Modules.
 ## Init a module
 
