@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go Course/Go Modules.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Go Modules"
+              "title": "README"
             }
           }
         ],
@@ -212,19 +212,20 @@
   },
   "active": "047ca244a0ed0a8c",
   "lastOpenFiles": [
-    "Go Course/Go - Resources.md",
-    "Go Course/Go Error Handling.md",
-    "Untitled.base",
-    "Go Course/Go Packages.md",
-    "Go Course/Go Modules.md",
-    "Go Course/Go If vs Switch.md",
+    "Go Course/Pointers/Pointers.md",
+    "README.md",
     "Go Course/Go Functions.md",
+    "index.base",
+    "Untitled.md",
+    "Go Course/Go Error Handling.md",
+    "Go Course/Go If vs Switch.md",
+    "Go Course/Go Modules.md",
+    "Go Course/Go Packages.md",
+    "Go Course/GOPATH.md",
+    "Go Course/Go Variable Declaration.md",
     "Go Course/Packages & Modules.md",
     "Go Course/Pointers/sketch.md",
-    "Go Course/Pointers/Pointers.md",
     "Go Course/Pointers",
-    "Go Course/Go Variable Declaration.md",
-    "Go Course/GOPATH.md",
     "README.base",
     "Untitled.canvas",
     "Go Course/Untitled.canvas",
