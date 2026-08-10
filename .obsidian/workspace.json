@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.13671875
+    "width": 227.921875
   },
   "right": {
     "id": "fb6d6f077818ec88",
@@ -212,6 +212,8 @@
   },
   "active": "047ca244a0ed0a8c",
   "lastOpenFiles": [
+    "Go Course/Pointers/sketch.md",
+    "Go Course/Pointers/Pointers.md",
     "Go Course/Go Functions.md",
     "Go Course/Go If vs Switch.md",
     "Go Course/Go Packages.md",
@@ -219,12 +221,10 @@
     "Go Course/Packages & Modules.md",
     "README.md",
     "Go Course/Go Error Handling.md",
-    "Go Course/Pointers/Pointers.md",
     "index.base",
     "Untitled.md",
     "Go Course/Go Modules.md",
     "Go Course/GOPATH.md",
-    "Go Course/Pointers/sketch.md",
     "Go Course/Pointers",
     "README.base",
     "Untitled.canvas",

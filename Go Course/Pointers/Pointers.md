@@ -17,6 +17,15 @@ agePointer := &age // => 0xc00000018050
 	* Pass a pointer (address) instead of a value to a function
 	* The function can then directly edit the the underlying value - **no return value is required**
 	* Can lead to less code (but also to less understandable code or unexpected behaviors)
+# Pointer Declaration
+The operator `&` obtains the address of a variable. The `*`operator access to the value in that address.
+
+| Syntaxis           | Description                                                                                           |
+| ------------------ | ----------------------------------------------------------------------------------------------------- |
+| `var p *int`       | Variable of type int pointer, zero values is `<nil>` - does not point to anywhere                     |
+| `p := new(int)`    | Creates storage for an `int`, initializes it to its **zero value (`0`)**, and returns a pointer to it |
+| `p := &variable`   | Pointer to an existing variable                                                                       |
+| `p := &MiStruct{}` | Pointer to a literal struct                                                                           |
 
 ```go
 package main
@@ -43,3 +52,7 @@ func main() {
 	fmt.Println(p2.Nombre)
 }
 ```
+
+# A Pointer's Null Value
+All values in Go have a default value if no value is assigned when a variable is declared, i.e for integers is `0`, for strings is `""` and for float64 is `0.0`. For a pointer is `nil`.
+`nil` represents the absence of an address value - a pointer pointing at no address *aka* no value in memoryk
