@@ -1,4 +1,3 @@
-j
 ```go
 for {
 	if choice = 1 {
