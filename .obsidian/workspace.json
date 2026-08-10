@@ -11,12 +11,14 @@
             "id": "9b7891573c08a5a7",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Go Course/Pointers/sketch.md"
+                "file": "Go Course/Go Error Handling.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "sketch"
+              "icon": "lucide-file",
+              "title": "Go Error Handling"
             }
           }
         ]
@@ -197,6 +199,7 @@
   },
   "active": "9b7891573c08a5a7",
   "lastOpenFiles": [
+    "Go Course/Pointers/sketch.md",
     "Go Course/Go Modules.md",
     "Go Course/Go Packages.md",
     "Go Course/Go Functions.md",
@@ -204,7 +207,6 @@
     "Go Course/Go If vs Switch.md",
     "Go Course/Packages & Modules.md",
     "Go Course/Pointers/Pointers.md",
-    "Go Course/Pointers/sketch.md",
     "Go Course/Go Variable Declaration.md",
     "README.md",
     "index.base",
