@@ -1,4 +1,6 @@
 {
   "baseFontSizeAction": false,
-  "textFontFamily": "JetBrains Mono"
+  "textFontFamily": "JetBrains Mono",
+  "theme": "moonstone",
+  "cssTheme": "Minimal"
 }

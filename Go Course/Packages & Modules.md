@@ -1,1 +1,1 @@
-A package is a way to organize code within a single directory, whereas a module is a collection of packages that form a single, versioned unit
+A `package` is a way to organize code within a single directory, whereas a `module` is a collection of packages that form a single, versioned unit
