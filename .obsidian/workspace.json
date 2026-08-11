@@ -11,12 +11,14 @@
             "id": "9b7891573c08a5a7",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "split-diff-view",
               "state": {
-                "file": "Go Course/Pointers/sketch.md"
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "excalidraw-icon",
-              "title": "sketch"
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -197,19 +199,19 @@
   },
   "active": "9b7891573c08a5a7",
   "lastOpenFiles": [
+    "Go Course/Packages & Modules/Go Modules.md",
+    "Go Course/Packages & Modules/Go Packages.md",
+    "README.md",
     "Go Course/Go Methods.md",
     "Go Course/Go Functions.md",
+    "Go Course/Go If vs Switch.md",
+    "Go Course/Pointers/sketch.md",
     "Go Course/Create Go Structs & Custom Types.md",
-    "Go Course/Packages & Modules/Go Packages.md",
-    "Go Course/Packages & Modules/Go Modules.md",
     "Go Course/Packages & Modules/README.md.md",
     "Go Course/Packages & Modules",
     "Go Course/Pointers/Pointers.md",
     "Go Course/Go Error Handling.md",
-    "Go Course/Pointers/sketch.md",
-    "Go Course/Go If vs Switch.md",
     "Go Course/Go Variable Declaration.md",
-    "README.md",
     "index.base",
     "Untitled.md",
     "Go Course/GOPATH.md",
