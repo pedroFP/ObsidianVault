@@ -1,4 +1,6 @@
 > https://go.dev/ref/mod#modules-overview
+
+> A `module` is a collection of packages that form a single, versioned unit.
 # A `module` Is a Collection of Go Packages
 A module is a collection of [[Go Packages|Go Packages]]  that are released, versioned, and distributed together. Modules can be downloaded directly from version control repositories (i.e GitHub) or from module proxy servers.
 

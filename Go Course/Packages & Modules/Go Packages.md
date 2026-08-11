@@ -1,4 +1,6 @@
 A package is the smallest unit of code distribution in Go. It's a way to group Go source files together
+
+> A `package` is a way to organize code within a single directory
 ## Organization
 * A package is a subdirectory inside a Go workspace that contains Go source files.
 * Each file in the package declares its membership to the package with the `package` keyword at the top of the file
