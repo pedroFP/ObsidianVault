@@ -21,7 +21,7 @@ var name string = "Alice"
 var age int = 30
 ```
 
-**You cannot use `:=` without a value **
+You cannot use `:=` without a value
 ```
 x :=      // ❌ invalid
 ```

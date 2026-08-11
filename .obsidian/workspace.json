@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "adbbdbd014e25580",
+        "id": "14f374b76836b5c1",
         "type": "tabs",
         "children": [
           {
-            "id": "9b7891573c08a5a7",
+            "id": "97bb1076bddace3d",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Go Course/Go Methods.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Go Methods"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.921875
+    "width": 352.5174446105957
   },
   "right": {
     "id": "fb6d6f077818ec88",
@@ -197,21 +197,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9b7891573c08a5a7",
+  "active": "97bb1076bddace3d",
   "lastOpenFiles": [
-    "Go Course/Packages & Modules/Go Modules.md",
-    "Go Course/Packages & Modules/Go Packages.md",
     "README.md",
     "Go Course/Go Methods.md",
-    "Go Course/Go Functions.md",
-    "Go Course/Go If vs Switch.md",
-    "Go Course/Pointers/sketch.md",
+    "Go Course/Go Variable Declaration.md",
     "Go Course/Create Go Structs & Custom Types.md",
+    "Go Course/Go If vs Switch.md",
+    "Go Course/Go Functions.md",
+    "Go Course/Go Error Handling.md",
+    "Go Course/Pointers/sketch.md",
+    "Go Course/Packages & Modules/Go Modules.md",
+    "Go Course/Packages & Modules/Go Packages.md",
     "Go Course/Packages & Modules/README.md.md",
     "Go Course/Packages & Modules",
     "Go Course/Pointers/Pointers.md",
-    "Go Course/Go Error Handling.md",
-    "Go Course/Go Variable Declaration.md",
     "index.base",
     "Untitled.md",
     "Go Course/GOPATH.md",

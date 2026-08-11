@@ -23,7 +23,6 @@ A `receiver` is what lets you attach a method to a type. There are two important
 + Pointer receivers
 
 ## Value Receivers
-
 Works on a **copy** of the value. Does not modify the original
 
 ```go
@@ -45,7 +44,7 @@ func main() {
 Works on the **original** through a pointer
 
 ```go
-func (c * Counter) Increment() {
+func (c *Counter) Increment() {
 	c.Value++ // Modifies the original one
 }
 
@@ -68,3 +67,5 @@ c := Counter{Value: 0}
 # Automatic Resolution of `&` and `*`
 
 Go resolves automatically pointers when calling the methods
+%%TODO: Finish section%%
+https://siemprelisto.cl/tecnologias/go/10-metodos/
