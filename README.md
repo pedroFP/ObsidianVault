@@ -9,4 +9,6 @@
 | Goroutines Are NOT Threads (Here's What They Actually Are) !? | https://www.youtube.com/watch?v=vfrAX26cqtg            |
 | Pointers in Spanish                                           | https://siemprelisto.cl/tecnologias/go/05-punteros/    |
 
+https://www.youtube.com/watch?v=R29lIyA6NMI&t=153s
+
 ![[index.base]]
