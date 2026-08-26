@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5174446105957
+    "width": 200
   },
   "right": {
     "id": "fb6d6f077818ec88",
@@ -199,20 +199,20 @@
   },
   "active": "97bb1076bddace3d",
   "lastOpenFiles": [
-    "README.md",
-    "Go Course/Go Methods.md",
-    "Go Course/Go Variable Declaration.md",
-    "Go Course/Create Go Structs & Custom Types.md",
-    "Go Course/Go If vs Switch.md",
-    "Go Course/Go Functions.md",
     "Go Course/Go Error Handling.md",
+    "Go Course/Go Functions.md",
+    "Go Course/Go If vs Switch.md",
+    "Go Course/Go Variable Declaration.md",
+    "Go Course/Go Methods.md",
+    "Go Course/Pointers/Pointers.md",
+    "Go Course/Create Go Structs & Custom Types.md",
     "Go Course/Pointers/sketch.md",
-    "Go Course/Packages & Modules/Go Modules.md",
+    "README.md",
+    "index.base",
     "Go Course/Packages & Modules/Go Packages.md",
+    "Go Course/Packages & Modules/Go Modules.md",
     "Go Course/Packages & Modules/README.md.md",
     "Go Course/Packages & Modules",
-    "Go Course/Pointers/Pointers.md",
-    "index.base",
     "Untitled.md",
     "Go Course/GOPATH.md",
     "Go Course/Pointers",

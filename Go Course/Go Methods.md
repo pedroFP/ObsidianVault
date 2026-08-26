@@ -1,7 +1,11 @@
-In go a method is a function with a `receiver` in between `func` and the name:
+https://siemprelisto.cl/tecnologias/go/10-metodos/
+
+> Not the same as [[Go Functions]]
+ 
+ In Go a method is a function attached to a `struct`. Methods have a `receiver` in between `func` and the name:
 
 ```go
-type Rectangle struc {
+type Rectangle struct {
 	Width, Height float64
 }
 
@@ -17,7 +21,6 @@ func main() {
 
 The receiver `(r Rectangle)` tells Go that the `Area` **belongs** to the type `Rectangle`
 # Receivers
-
 A `receiver` is what lets you attach a method to a type. There are two important kind:
 + Value receivers
 + Pointer receivers
@@ -65,7 +68,28 @@ c := Counter{Value: 0}
 | Big Structs           | Expensive (makes a complete copy) | Efficient (only the pointer) |
 | Interfaces            | Satisfies value and pointer       | Only satisfies the pointer   |
 # Automatic Resolution of `&` and `*`
-
 Go resolves automatically pointers when calling the methods
-%%TODO: Finish section%%
-https://siemprelisto.cl/tecnologias/go/10-metodos/
+
+>`c.Foo(2) == (&c).Foo(2)`
+ 
+```go
+type Circle struct {
+	Radio float64
+}
+
+func (c *Circle) Scale(factor float64) {
+	c.Radio *= factor
+}
+
+func main() {
+	c := Circle{Radio: 5}
+	
+	// Go converts automatically c into &c
+	c.Scale(2) // aquivalent to (&c).Scale(2)
+	
+	r := &Circle{Radio: 5}
+	// Go dereference automatically for value receivers
+	r.Radio // aquivalent to (*r).Radio
+}
+```
+

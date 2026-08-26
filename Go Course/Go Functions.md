@@ -1,3 +1,5 @@
+> Not the same as [[Go Methods]]
+
 State the return type of a function. So after the first parenthesis (arguments) we must define the return types
 
 ```go

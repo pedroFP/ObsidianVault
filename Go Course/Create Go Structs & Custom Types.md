@@ -5,7 +5,7 @@ Structs are the main mechanism in Go to group related data. Unlike Object Orient
 type user struct {
   name      string
   lastName  string
-}
+}[[Create Go Structs & Custom Types]]
 
 func (u user) showDetails() {
   fmt.Println(u.name, u.lastNmae)
