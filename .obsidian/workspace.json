@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go Course/Go Methods.md",
+                "file": "Go Course/Pointers/Pointers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Go Methods"
+              "title": "Pointers"
             }
           }
         ]
@@ -199,13 +199,15 @@
   },
   "active": "97bb1076bddace3d",
   "lastOpenFiles": [
+    "Go Course/Create Go Structs & Custom Types.md",
+    "Go Course/Pointers/Pointers.md",
+    "Go Course/Go Methods.md",
+    "Go Course/Go If vs Switch.md",
+    "Operators `&` and `*` 👈.md",
+    "`&` and `*`.md",
     "Go Course/Go Error Handling.md",
     "Go Course/Go Functions.md",
-    "Go Course/Go If vs Switch.md",
     "Go Course/Go Variable Declaration.md",
-    "Go Course/Go Methods.md",
-    "Go Course/Pointers/Pointers.md",
-    "Go Course/Create Go Structs & Custom Types.md",
     "Go Course/Pointers/sketch.md",
     "README.md",
     "index.base",

@@ -67,7 +67,7 @@ c := Counter{Value: 0}
 | Concurrent security   | More secured (isolated copy)      | Requires syncing             |
 | Big Structs           | Expensive (makes a complete copy) | Efficient (only the pointer) |
 | Interfaces            | Satisfies value and pointer       | Only satisfies the pointer   |
-# Automatic Resolution of `&` and `*`
+# Automatic Resolution of [[Pointers#Operators `&` and `*` 👈|`&` and `*`]]
 Go resolves automatically pointers when calling the methods
 
 >`c.Foo(2) == (&c).Foo(2)`
