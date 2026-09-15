@@ -27,7 +27,6 @@ module example.com/my_module
 
 go 1.26.4
 ```
-
 ## Go Build Command
 It will create an executable file (`.exe` in windows)  that can run without having Go installed
 ```
@@ -38,4 +37,9 @@ How to run the file on linux
 ```
 📄️ $ ./my_module
 ```
-
+## Why the path follows an URL pattern?
+Because the module path serve two purposes at once:
+- It's the modules globally unique identifier
+- It can tell Go where the source code can be found
+Go doesn't need a central registry like `npm` or `PyPi`. The domain provides a natural global namespace.
+Go module paths use internet-style names to get globally unique package identities for free, while also providing enough information for Go tooling to discover where the code comes from
