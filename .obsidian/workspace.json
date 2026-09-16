@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,7 +197,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f66d2d42989856e6",
+  "active": "fac8e6127e625c79",
   "lastOpenFiles": [
     "Go Course/Go Types.md",
     "Go Course/Go Structs.md",
