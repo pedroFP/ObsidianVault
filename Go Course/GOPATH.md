@@ -11,4 +11,3 @@ The GOPATH variable is used for the following purposes
 | `$GOBIN`                     | `$GOPATH/bin`       |
 | `$GOMODCACHE`                | `$GOPATH/pkg/mod`   |
 | downloaded checksum database | `$GOPATH/pkg/sumdb` |
-
