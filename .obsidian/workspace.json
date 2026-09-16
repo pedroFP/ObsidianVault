@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go Course/Packages & Modules/Go Packages.md",
-                "mode": "preview",
+                "file": "Go Course/Go Structs.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Go Packages"
+              "title": "Go Structs"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 222.4140625
   },
   "right": {
     "id": "fb6d6f077818ec88",
@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,10 +200,11 @@
   },
   "active": "f66d2d42989856e6",
   "lastOpenFiles": [
-    "Go Course/Packages & Modules/Export Structs.md",
+    "Go Course/Go Types.md",
+    "Go Course/Go Structs.md",
     "Go Course/Packages & Modules/Go Packages.md",
+    "Go Course/Packages & Modules/Export Structs.md",
     "Go Course/Packages & Modules/Go Modules.md",
-    "Go Course/Create Go Structs & Custom Types.md",
     "Go Course/Go Functions.md",
     "Go Course/Go Methods.md",
     "README.md",

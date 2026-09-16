@@ -1,4 +1,4 @@
-You can export a [[Create Go Structs & Custom Types|Struct]] and still not export all the fields in that struct.
+You can export a [[Go Structs|Struct]] and still not export all the fields in that struct.
 To make the fields accessible from outside the package we have to start the field name with the first character in uppercase.
 ```go
 // package user/user.go

@@ -47,3 +47,35 @@ func main() {
 	fmt.Printf("Server in %s:%d", myServer.host, myServer.port)
 }
 ```
+
+## Struct Embedding
+```go
+type User struct {
+	firstName string
+	lastName  string
+	birthDate string
+	createdAt time.Time
+}
+
+type Admin struct {
+	email    string
+	password string
+	User     // 👈 embedding the User struct
+}
+
+newAdmin := Admin{
+	email:    email,
+	password: password,
+	User: User{
+		firstName: "ADMIN",
+		lastName:  "ADMIN",
+		birthDate: "---",
+		createdAt: time.Now(),
+	},
+}
+
+newAdmin.email
+
+//❗This is how we have to call the attributes from the User struct
+newAdmin.User.firstName
+```
