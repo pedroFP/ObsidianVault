@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go Course/Go Structs.md",
+                "file": "Go Course/GOPATH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Go Structs"
+              "title": "GOPATH"
             }
           }
         ]
@@ -197,10 +197,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fac8e6127e625c79",
+  "active": "f66d2d42989856e6",
   "lastOpenFiles": [
-    "Go Course/Go Types.md",
     "Go Course/Go Structs.md",
+    "Go Course/Go Types.md",
     "Go Course/Packages & Modules/Go Packages.md",
     "Go Course/Packages & Modules/Export Structs.md",
     "Go Course/Packages & Modules/Go Modules.md",
