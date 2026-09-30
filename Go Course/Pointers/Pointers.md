@@ -10,8 +10,9 @@ Variables that store value "addresses" instead of values
 age := 32 // 32 is stored IN 0xc00000018050
 agePointer := &age // => 0xc00000018050
 ```
-# Operators `&` and `*` 👈
-The operator `&` obtains the address of a variable. The `*`operator access to the value in that address.
+# Operators: `&` a nd `*` 👈
+* The `&` operator obtains the address of a variable
+* The `*`operator access to the value in that address.
 # Why "Pointers"?
 * Avoid Unnecessary Value Copies (*not actually a real reason why we use pointers*)
 	* By default, Go creates a copy when passing values to functions
