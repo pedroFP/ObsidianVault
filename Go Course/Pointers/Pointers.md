@@ -10,7 +10,7 @@ Variables that store value "addresses" instead of values
 age := 32 // 32 is stored IN 0xc00000018050
 agePointer := &age // => 0xc00000018050
 ```
-# Operators: `&` a nd `*` 👈
+# Operators: `&` and `*` 👈
 * The `&` operator obtains the address of a variable
 * The `*`operator access to the value in that address.
 # Why "Pointers"?
