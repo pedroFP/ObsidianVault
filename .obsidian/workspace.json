@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go Course/Pointers/Pointers.md",
+                "file": "Go Course/Go If vs Switch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pointers"
+              "title": "Go If vs Switch"
             }
           }
         ]
@@ -197,11 +197,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fac8e6127e625c79",
+  "active": "f66d2d42989856e6",
   "lastOpenFiles": [
+    "Go Course/Pointers/sketch.md",
+    "Go Course/Go Variable Declaration.md",
+    "Go Course/Pointers/Pointers.md",
     "Go Course/Go Structs.md",
     "Go Course/Go Methods.md",
-    "Go Course/Go Variable Declaration.md",
     "Go Course/Go If vs Switch.md",
     "Go Course/Go Error Handling.md",
     "Go Course/GOPATH.md",
@@ -212,10 +214,8 @@
     "Go Course/Packages & Modules/Go Modules.md",
     "README.md",
     "index.base",
-    "Go Course/Pointers/Pointers.md",
     "Operators `&` and `*` 👈.md",
     "`&` and `*`.md",
-    "Go Course/Pointers/sketch.md",
     "Go Course/Packages & Modules/README.md.md",
     "Go Course/Packages & Modules",
     "Untitled.md",
