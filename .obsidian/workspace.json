@@ -197,8 +197,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5db48167b79ae74f",
+  "active": "f66d2d42989856e6",
   "lastOpenFiles": [
+    "Go Course/Go Structs.md~",
     "Go Course/Packages & Modules/Export Structs.md",
     "Go Course/Go Structs.md",
     "Go Course/Handling Long User Input.md",
