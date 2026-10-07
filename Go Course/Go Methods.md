@@ -24,7 +24,6 @@ The receiver `(r Rectangle)` tells Go that the `Area` **belongs** to the type `R
 A `receiver` is what lets you attach a method to a type. There are two important kind:
 + Value receivers
 + Pointer receivers
-
 ## Value Receivers
 Works on a **copy** of the value. Does not modify the original
 

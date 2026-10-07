@@ -79,3 +79,17 @@ newAdmin.email
 //❗This is how we have to call the attributes from the User struct
 newAdmin.User.firstName
 ```
+# Export Structs
+You can export a [[Go Structs|Struct]] and still not export all the fields in that struct.
+To make the fields accessible from outside the package we have to start the field name with the first character in uppercase.
+```go
+// package user/user.go
+type User struct {
+	firstName string    // not available ❌
+	LastName  string    // avaialabe ✔️
+	birthDate string    // not available ❌
+	createdAt time.Time // not available ❌
+}
+```
+# Struct Tags
+Export Structs
