@@ -13,7 +13,6 @@ func (u user) showDetails() {
 ```
 ## Pointers to Structs
 Go allows to access fields of a [[Pointers|pointer]] without explicit de-referencing.
-
 ```go
 p := &Person{Name: "Charles", Age: 43}
 
@@ -26,7 +25,6 @@ fmt.Println(p.Age) // 41
 ```
 ## Constructor Functions
 Go does not have `constructors`, but by convention `New-functions` are used.
-
 ```go
 type Server struct {
 	host    string
@@ -47,7 +45,6 @@ func main() {
 	fmt.Printf("Server in %s:%d", myServer.host, myServer.port)
 }
 ```
-
 ## Struct Embedding
 ```go
 type User struct {
@@ -92,4 +89,22 @@ type User struct {
 }
 ```
 # Struct Tags
-    Export Structs https://go.dev/wiki/Well-known-struct-tags 
+Struct tags are small pieces of metadata attached to fields of a struct that provide instructions to other Go code that works with the struct. [Link](https://www.digitalocean.com/community/tutorials/how-to-use-struct-tags-in-go#introduction)
+
+```go
+import (
+	"fmt"
+	"reflect"
+)
+
+type User struct {
+	name string `json:"user_name"`
+	email string `json:"user_email"`
+}
+
+func main()  {
+	t := reflect.TypeOf(User{})
+	tag := t.Field(0).Tag.Get("json")
+	fmt.Printf(tag) // "user_name" 
+}
+```
