@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go Methods.md",
+                "file": "Go Interfaces.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Go Methods"
+              "title": "Go Interfaces"
             }
           }
         ]
@@ -197,12 +197,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f66d2d42989856e6",
+  "active": "5db48167b79ae74f",
   "lastOpenFiles": [
-    "Go Functions.md",
-    "Go Methods.md",
-    "GOPATH.md",
     "Go Structs.md",
+    "Go Interfaces.md",
+    "GOPATH.md",
+    "Go Methods.md",
+    "Go Functions.md",
     "README.md",
     "index.base",
     "Go Course/Go Structs.md~",
@@ -222,7 +223,6 @@
     "`&` and `*`.md",
     "Go Course/Packages & Modules/README.md.md",
     "Packages & Modules",
-    "Untitled.md",
     "Pointers",
     "README.base",
     "Untitled.canvas",
