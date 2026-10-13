@@ -8,7 +8,7 @@ type Animal interface {
 var a Animal // A variable of the interface type
 ```
 
-Both `Dog` and `Cat` satisfy the `Animal` interface automatically
+Both `Dog` and `Cat` satisfy the `Animal` interface **automatically**.
 ```go
 type Dog struct{}
 type Cat struct{}
@@ -26,11 +26,28 @@ A variable of an interface type can hold values of different types, as long as t
 ```go
 var a Animal
 
-a = Dog{}
-fmt.Println(a.Speak()) // Woof!
+func speak(animal Animal) string {
+	animal.Speak()
+}
 
-a = Cat{}
-fmt.Println(a.Speak()) // Meow!
+d = Dog{}
+c = Cat{}
+
+speak(d) // "Woof!"
+speak(c) // "Meow!"
 ```
 
 **This means:** *Anything that has a method called `Speak()` that returns a `string` can be considered an `Animal`*
+# Naming Convention
+convention name for interfaces with one method is the name of the method plus `er` suffix
+```go
+type saver interface {
+	Save() error
+}
+```
+# Embedded Interfaces
+Go interfaces define a set of method signatures and are themselves types, meaning you can declare variables of an interface type.
+
+Although Go does not support traditional inheritance, interfaces support embedding. An interface can embed other interfaces directly or include their method signatures explicitly.  Both approaches produce the same result.
+
+A single interface can embed multiple interfaces. When an embedded interface's method change, those changes are reflected in the embedding interface.
