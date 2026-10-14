@@ -51,3 +51,17 @@ Go interfaces define a set of method signatures and are themselves types, meanin
 Although Go does not support traditional inheritance, interfaces support embedding. An interface can embed other interfaces directly or include their method signatures explicitly.  Both approaches produce the same result.
 
 A single interface can embed multiple interfaces. When an embedded interface's method change, those changes are reflected in the embedding interface.
+
+# The Special "Any Value Allowed" Type
+ `interface{}` & `any`: a variable can hold a value of any type.
+```go
+func printSomething(value interface{}) {
+	fmt.Println(value)
+}
+
+func printSomething(value any) {
+	fmt.Println(value)
+}
+
+type any = interface{}
+```
