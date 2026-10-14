@@ -29,7 +29,7 @@ func (c Celsius) Fahrenheit() float64 {
 }
 ```
 # Working With Type Switches
-> Refer to [[Go Interfaces#The Special "Any Value Allowed" Type|Go Interfaces]] to understand  what `interface{}` means (means any type of value)
+> Refer to [[Go Interfaces#The Special "Any Value Allowed" Type|Go Interfaces]] to understand what `interface{}` means (means any type of value)
 ```go
 func printSomething(value interface{}) {
 	switch value.(type) {
