@@ -59,13 +59,13 @@ c := Counter{Value: 0}
 ---
 ## TL;DR
 
-| Aspect                | Value Receiver `(r T)`               | Pointer Receiver `(r *T)`    |
-| --------------------- | ------------------------------------ | ---------------------------- |
-| Modifies the original | No                                   | Yes                          |
-| Copies the value      | Yes                                  | No (sends pointer)           |
-| Concurrent security   | More secured<br>(isolated copy)      | Requires syncing             |
-| Big Structs           | Expensive<br>(makes a complete copy) | Efficient (only the pointer) |
-| Interfaces            | Satisfies value and pointer          | Only satisfies the pointer   |
+| Aspect                | Value Receiver `(r T)`             | Pointer Receiver `(r *T)`    |
+| --------------------- | ---------------------------------- | ---------------------------- |
+| Modifies the original | No                                 | Yes                          |
+| Copies the value      | Yes                                | No (sends pointer)           |
+| Concurrent security   | More secured<br>isolated copy      | Requires syncing             |
+| Big Structs           | Expensive<br>makes a complete copy | Efficient (only the pointer) |
+| Interfaces            | Satisfies value and pointer        | Only satisfies the pointer   |
 # Automatic Resolution of [[Pointers#Operators `&` and `*` 👈|`&` and `*`]]
 Go resolves automatically pointers when calling the methods
 >`c.Foo(2) == (&c).Foo(2)`
