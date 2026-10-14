@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go Types.md",
-                "mode": "source",
+                "file": "Go Interfaces.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Go Types"
+              "title": "Go Interfaces"
             }
           }
         ]
@@ -199,8 +199,8 @@
   },
   "active": "f66d2d42989856e6",
   "lastOpenFiles": [
-    "Go Interfaces.md",
     "Go Types.md",
+    "Go Interfaces.md",
     "Pointers/sketch.md",
     "Pointers/Pointers.md",
     "Go Functions.md",

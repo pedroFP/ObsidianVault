@@ -6,7 +6,6 @@ type User struct {
     Age  int
 }
 ```
-
 ### Type can do much more than create structs
 You can create types from different primitives
 ```go
@@ -19,7 +18,6 @@ func FindUser(id UserID) {
 	// ...
 }
 ```
-
 Add methods to your own types
 ```go
 type Celsius float64
@@ -47,9 +45,10 @@ func printSomething
 # Extracting The Type Information From Values
 The notation `value.(type)` is only valid on the `switch` it does not work for getting the type of values. To get the type information from values this is the way:
 ```go
-func foo(value interface{}) {
-	typedVal, ok := value.(string)
+func foo(myVariable interface{}) {
+	typedVal, ok := myVariable.(string) // could be any type (string, int,etc)
 	fmt.Println("typedVal:", typedVal)
 	fmt.Println("ok:", ok)
 }
 ```
+`typedVal` will be the value of `myVariable` but at the time of the variable assignation (`typedVal, ok := myVariable.(string)`) Go will know which type will be the value based on the parameter `string` from `myVariable.(string)`, it could be any type in the parameter int, bool, string, float64, etc.
