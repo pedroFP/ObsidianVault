@@ -63,5 +63,5 @@ func printSomething(value any) {
 	fmt.Println(value)
 }
 
-type any = interface{}
+type any = interface{} // go/src/builtin/builtin.go
 ```
