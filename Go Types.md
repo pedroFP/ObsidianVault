@@ -31,7 +31,7 @@ func (c Celsius) Fahrenheit() float64 {
 # Working With Type Switches
 > Refer to [[Go Interfaces#The Special "Any Value Allowed" Type|Go Interfaces]] to understand what `interface{}` means (means any type of value)
 ```go
-func printSomething(value interface{}) {
+func printSomething  
 	switch value.(type) {
 	case int:
 		fmt.Println("Integer:", value)
@@ -42,5 +42,14 @@ func printSomething(value interface{}) {
 	default
 		// ... some other logic
 	}
+}
+```
+# Extracting The Type Information From Values
+The notation `value.(type)` is only valid on the `switch` it does not work for getting the type of values. To get the type information from values this is the way:
+```go
+func foo(value interface{}) {
+	typedVal, ok := value.(string)
+	fmt.Println("typedVal:", typedVal)
+	fmt.Println("ok:", ok)
 }
 ```
