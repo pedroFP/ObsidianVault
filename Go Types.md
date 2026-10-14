@@ -28,3 +28,19 @@ func (c Celsius) Fahrenheit() float64 {
     return float64(c)*9/5 + 32
 }
 ```
+# Working With Type Switches
+> Refer to [[Go Interfaces#The Special "Any Value Allowed" Type|Go Interfaces]] to understand  what `interface{}` means (means any type of value)
+```go
+func printSomething(value interface{}) {
+	switch value.(type) {
+	case int:
+		fmt.Println("Integer:", value)
+	case float64:
+		fmt.Println("Float:", value)
+	case string:
+		fmt.Println("Float:", value)
+	default
+		// ... some other logic
+	}
+}
+```
