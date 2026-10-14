@@ -51,4 +51,5 @@ func foo(myVariable interface{}) {
 	fmt.Println("ok:", ok)
 }
 ```
-`typedVal` will be the value of `myVariable` but at the time of the variable assignation (`typedVal, ok := myVariable.(string)`) Go will know which type will be the value based on the parameter `string` from `myVariable.(string)`, it could be any type in the parameter int, bool, string, float64, etc.
+* `typedVal` will be the value of `myVariable` but at the time of the variable assignation (`typedVal, ok := myVariable.(string)`) Go will know which type will be the value based on the parameter `string` from `myVariable.(string)`, it could be any type in the parameter int, bool, string, float64, etc.
+* `ok` is a boolean that tell whether `myVariable` is the type passed as a parameter
