@@ -11,6 +11,8 @@
 | Go Tutorials                                                  | https://go.dev/doc/tutorial/                           |
 |                                                               |                                                        |
 
+https://www.youtube.com/watch?v=R29lIyA6NMI&t=153s
+
 ![[index.base]]
 
 # Variable Naming Convention in Go
