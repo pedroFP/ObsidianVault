@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.4140625,
-    "collapsed": true
+    "width": 222.4140625
   },
   "right": {
     "id": "fb6d6f077818ec88",
@@ -198,22 +197,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63bd9a062a654856",
+  "active": "5db48167b79ae74f",
   "lastOpenFiles": [
+    "Go Interfaces.md",
+    "Go Types.md",
+    "Packages & Modules/Go Modules.md",
+    "Go Generics.md",
     "attachments/Pasted image 20261014212227.png",
     "attachments",
     "go-generics.png",
-    "Go Generics.md",
     "resources",
     "Untitled 1",
     "README.md",
     "Sin título.svg",
     "Untitled.base",
     "Untitled.md",
-    "Go Types.md",
     "Go Methods.md",
     "Go Functions.md",
-    "Go Interfaces.md",
     "Pointers/sketch.md",
     "Pointers/Pointers.md",
     "Go Structs.md",
@@ -223,7 +223,6 @@
     "Go Course/Packages & Modules/Export Structs.md",
     "Handling Long User Input.md",
     "Go Course/Handling Long User Input.md~",
-    "Packages & Modules/Go Modules.md",
     "Go Error Handling.md",
     "Packages & Modules/Go Packages.md",
     "Go Variable Declaration.md",

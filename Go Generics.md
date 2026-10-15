@@ -33,6 +33,12 @@ func First[T any](items []T) T {
 ![[Pasted image 20261014212227.png]]
 
 When you call `First([]string{"a", "b"})` => Go infers `T = string`
-
-## Why does everybody use `T`?
+#### Why does everybody use `T`?
 Because it's a convention, not a Go keyword.
+# List Predefined Types
+Here we are saying the `items` can be either `int`, `string` or `float64`.
+```go
+func First[T int|string|float64](items []T) T {
+    return items[0]
+}
+```
