@@ -28,4 +28,11 @@ func First[T any](items []T) T {
     return items[0]
 }
 ```
+
+`T` is a **type parameter**. It could be thought of it as a variable, but for types rather than values.
 ![[Pasted image 20261014212227.png]]
+
+When you call `First([]string{"a", "b"})` => Go infers `T = string`
+
+## Why does everybody use `T`?
+Because it's a convention, not a Go keyword.

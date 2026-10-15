@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Go Generics.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.4140625
+    "width": 222.4140625,
+    "collapsed": true
   },
   "right": {
     "id": "fb6d6f077818ec88",
@@ -197,7 +198,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63bd9a062a654856",
+  "active": "fac8e6127e625c79",
   "lastOpenFiles": [
     "attachments/Pasted image 20261014212227.png",
     "attachments",
