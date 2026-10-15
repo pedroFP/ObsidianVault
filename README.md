@@ -9,5 +9,16 @@
 | Goroutines Are NOT Threads (Here's What They Actually Are) !? | https://www.youtube.com/watch?v=vfrAX26cqtg            |
 | Pointers in Spanish                                           | https://siemprelisto.cl/tecnologias/go/05-punteros/    |
 | Go Tutorials                                                  | https://go.dev/doc/tutorial/                           |
+|                                                               |                                                        |
 
 ![[index.base]]
+
+# Variable Naming Convention in Go
+
+| Name | Meaning | Typical usage             |
+| ---- | ------- | ------------------------- |
+| `T`    | Type    | General-purpose functions |
+| `K`    | Key     | Maps and dictionaries     |
+| `V`    | Value   | Maps and dictionaries     |
+| `E`    | Element | Collections               |
+| `R`    | Result  | Transformations           |
