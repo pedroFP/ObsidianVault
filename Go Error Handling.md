@@ -23,7 +23,7 @@ func getBalanceFromFile() (float64, error) {
 }
 ```
 
-# Panic
+# Panic q
 > Tool for handling runtime errors
 
 When panic is executed the normal flow of execution is interrupted and the program begins unwinding the call stack, executing deferred function along the way

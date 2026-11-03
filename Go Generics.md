@@ -1,3 +1,5 @@
+> [⏯ Video](https://asi.udemy.com/course/go-the-complete-guide/learn/lecture/40838252#overview)
+
 Generics are a feature that enables **parametric polymorphism**.
 
 With generics, you can declare and use functions or types that are written to work with any of a set of types provided by calling code.
