@@ -197,11 +197,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fac8e6127e625c79",
+  "active": "bd2b28539778bfb5",
   "lastOpenFiles": [
-    "Go Generics.md",
-    "Go Arrays.md",
+    "README.md",
     "Go Structs.md",
+    "index.base",
+    "Go Arrays.md",
+    "Go Generics.md",
     "Go Error Handling.md",
     "Go Methods.md",
     "Go Interfaces.md",
@@ -216,11 +218,9 @@
     "go-generics.png",
     "resources",
     "Untitled 1",
-    "README.md",
     "Sin título.svg",
     "Untitled.base",
     "GOPATH.md",
-    "index.base",
     "Go Course/Go Structs.md~",
     "Go Course/Packages & Modules/Export Structs.md",
     "Handling Long User Input.md",

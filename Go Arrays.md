@@ -36,6 +36,23 @@ func main() {
 
 	highlightedPrices := featuresPrices[:1] // 👈 Slice from a slice
 											// from 0 to the 1st index
-	
 }
 ```
+
+# Arrays and Slices
+These are different things. Arrays are stored in memory while slices are a reference to the section of an array. If we modify an element in a slice it would also modify it in the array that is referencing.
+
+```go
+// Array (fixed size)
+arr := [3]int{1, 2, 3}
+
+// Slice (dynamic size)
+slice := []int{1, 2, 3}
+```
+
+| Array          | Slice             |
+| -------------- | ----------------- |
+| `[3]int`       | `[]int`           |
+| Size specified | No size specified |
+| Fixed length   | Dynamic length    |
+
