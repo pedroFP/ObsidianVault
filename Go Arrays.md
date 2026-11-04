@@ -138,3 +138,15 @@ s := arr[100:200]
 No elements are copied. The slice simply references that portion of the array.
 
 This is particularly useful for processing buffers, files, network packets and large datasets
+
+# How does slices length dynamically change?
+**[ChatGPT Link](https://chatgpt.com/share/e/6aea908e-7414-83ed-9581-450158d387ca)**
+In Go, arrays never change size. Instead, Go uses slices to make them appear dynamic.
+
+When you append an element to a slice, Go follows these steps:
+1. Check if there's space in the underlying array.
+2. If there's space, add the new element to the existing array.
+3. If there's no space, create a new, bigger array.
+4. Copy the old elements into the new array.
+5. Add the new element to the new array.
+6. Update the slice to point to the new array.
