@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b0b70f9765697bfe",
+        "id": "54fad0079a96efe0",
         "type": "tabs",
         "children": [
           {
-            "id": "d08c497a88a27d56",
+            "id": "a85edbeab14d7a69",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Go Arrays.md",
-                "bFile": "Go Arrays.md",
-                "aRef": ""
+                "file": "Go Arrays & Slices.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Go Arrays  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Go Arrays & Slices"
             }
           }
         ]
@@ -197,9 +197,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d08c497a88a27d56",
+  "active": "a85edbeab14d7a69",
   "lastOpenFiles": [
-    "Go Arrays.md",
+    "Go Arrays & Slices.md",
     "Go Generics.md",
     "Go Structs.md",
     "Go Course/Pointers/sketch.md",
