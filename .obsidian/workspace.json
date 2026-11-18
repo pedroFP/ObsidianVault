@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "14f374b76836b5c1",
+        "id": "b0b70f9765697bfe",
         "type": "tabs",
         "children": [
           {
-            "id": "97bb1076bddace3d",
+            "id": "d08c497a88a27d56",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
+                "aFile": "Go Arrays.md",
+                "bFile": "Go Arrays.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "title": "Diff: Go Arrays  (Working Tree)"
             }
           }
         ]
@@ -197,8 +197,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "97bb1076bddace3d",
+  "active": "d08c497a88a27d56",
   "lastOpenFiles": [
+    "Go Arrays.md",
+    "Go Generics.md",
     "Go Structs.md",
     "Go Course/Pointers/sketch.md",
     "attachments/Pasted image 20261014212227.png",
@@ -215,10 +217,8 @@
     "Go Methods.md",
     "Go Interfaces.md",
     "Go If vs Switch.md",
-    "Go Generics.md",
     "Go Functions.md",
     "Go Error Handling.md",
-    "Go Arrays.md",
     "GOPATH.md",
     "Go Course/Pointers/Pointers.md",
     "Go Course/Go Functions.md",
