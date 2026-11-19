@@ -43,7 +43,7 @@ A slice is basically a descriptor containing three things:
 * **Pointer** -> Points to an element of the underlying array.
 * **Length** (`len`) -> Number of elements accessible through the slice.
 * **Capacity** (`cap`) -> Number of elements ==🔵available== from the slice's start to end.
-
+A Slice is just a tiny reference to a part of an Array. It's a very memory efficient way of selecting parts of Arrays and update parts of Arrays.
 # Arrays and Slices
 These are different things. Arrays are stored in memory while slices are a reference to the section of an array. If we modify an element in a slice it would also modify it in the array that is referencing.
 

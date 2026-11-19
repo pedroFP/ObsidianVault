@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0bc0ce0b4b025a2c",
+        "id": "54fad0079a96efe0",
         "type": "tabs",
         "children": [
           {
-            "id": "bd2b28539778bfb5",
+            "id": "a85edbeab14d7a69",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go Arrays.md",
+                "file": "Go Arrays & Slices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Go Arrays"
+              "title": "Go Arrays & Slices"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime",
+                "sortOrder": "alphabetical",
                 "autoReveal": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.4140625
+    "width": 347
   },
   "right": {
     "id": "fb6d6f077818ec88",
@@ -197,46 +197,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bd2b28539778bfb5",
+  "active": "a85edbeab14d7a69",
   "lastOpenFiles": [
-    "Go If vs Switch.md",
-    "Go Variable Declaration.md",
-    "Handling Long User Input.md",
-    "Go Error Handling.md",
+    "Go Arrays & Slices.md",
     "Go Generics.md",
-    "Pointers/Pointers.md",
-    "Pointers/sketch.md",
-    "Go Arrays.md",
-    "attachments/Pasted image 20261014212227.png",
-    "README.md",
     "Go Structs.md",
-    "index.base",
-    "Go Methods.md",
-    "Go Interfaces.md",
-    "Go Types.md",
-    "Go Functions.md",
+    "Go Course/Pointers/sketch.md",
+    "attachments/Pasted image 20261014212227.png",
+    "attachments",
+    "Pointers/sketch.md",
+    "Pointers/Pointers.md",
+    "Pointers",
     "Packages & Modules/Go Packages.md",
     "Packages & Modules/Go Modules.md",
-    "attachments",
-    "go-generics.png",
-    "resources",
-    "Untitled 1",
-    "Sin título.svg",
-    "Untitled.base",
-    "GOPATH.md",
-    "Go Course/Go Structs.md~",
-    "Go Course/Packages & Modules/Export Structs.md",
-    "Go Course/Handling Long User Input.md~",
-    "Operators `&` and `*` 👈.md",
-    "`&` and `*`.md",
-    "Go Course/Packages & Modules/README.md.md",
     "Packages & Modules",
-    "Pointers",
+    "Handling Long User Input.md",
+    "Go Variable Declaration.md",
+    "Go Types.md",
+    "Go Methods.md",
+    "Go Interfaces.md",
+    "Go If vs Switch.md",
+    "Go Functions.md",
+    "Go Error Handling.md",
+    "GOPATH.md",
+    "Go Course/Pointers/Pointers.md",
+    "Go Course/Go Functions.md",
+    "Go Course/Go Methods.md",
+    "Go Course/GOPATH.md",
+    "Go Course/Go If vs Switch.md",
+    "index.base",
+    "README.md",
+    "Go Course/Create Go Structs & Custom Types.md",
+    "Operators `&` and `*` 👈.md",
+    "Go Course/Packages & Modules",
+    "Go Course/Pointers",
     "README.base",
     "Untitled.canvas",
     "Go Course/Untitled.canvas",
-    "WiFi.md",
-    "2026-07-22.md",
-    "module.md"
+    "Go Course"
   ]
 }
