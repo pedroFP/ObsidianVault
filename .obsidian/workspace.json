@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Go Structs.md",
-                "bFile": "Go Structs.md",
+                "aFile": ".obsidian/app.json",
+                "bFile": ".obsidian/app.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Go Structs  (Working Tree)"
+              "title": "Diff: app.json  (Working Tree)"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Go Course/Go Functions.md",
+                "file": "Go Arrays & Slices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Go Functions"
+              "title": "Backlinks"
             }
           },
           {
@@ -115,12 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "Go Arrays & Slices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links"
             }
           },
           {
@@ -158,17 +158,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Go Course/Go Functions.md",
-                "followCursor": false,
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Go Functions"
+              "title": "Outline"
             }
           },
           {
-            "id": "fac8e6127e625c79",
+            "id": "2c03a6b02ef23db3",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -182,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 368
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,19 +196,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fac8e6127e625c79",
+  "active": "bd2b28539778bfb5",
   "lastOpenFiles": [
+    "Go Make.md",
+    "Go Maps.md",
+    "Pointers/Pointers.md",
+    "Pointers/sketch.md",
     "Go Arrays & Slices.md",
     "Go Structs.md",
     "Go Interfaces.md",
-    "Pointers/Pointers.md",
     "Go Arrays.md",
     "Go If vs Switch.md",
     "Go Variable Declaration.md",
     "Handling Long User Input.md",
     "Go Error Handling.md",
     "Go Generics.md",
-    "Pointers/sketch.md",
     "attachments/Pasted image 20261014212227.png",
     "README.md",
     "index.base",
@@ -237,7 +238,6 @@
     "Untitled.canvas",
     "Go Course/Untitled.canvas",
     "WiFi.md",
-    "2026-07-22.md",
-    "module.md"
+    "2026-07-22.md"
   ]
 }

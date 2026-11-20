@@ -1,4 +1,9 @@
 {
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "attachments"
+  "attachmentFolderPath": "attachments",
+  "livePreview": true,
+  "strictLineBreaks": false,
+  "autoPairMarkdown": true,
+  "tabSize": 2,
+  "vimMode": true
 }

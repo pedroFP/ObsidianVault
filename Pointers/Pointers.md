@@ -1,5 +1,5 @@
 # What are "Pointers"?
-Variables that store value "addresses" instead of values
+	Variables that store value "addresses" instead of values
 
 | Code        | Computer Memory  |
 | ----------- | ---------------- |
