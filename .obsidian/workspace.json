@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0bc0ce0b4b025a2c",
+        "id": "c592c8237f482313",
         "type": "tabs",
         "children": [
           {
-            "id": "bd2b28539778bfb5",
+            "id": "f24c44c61372c831",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/app.json",
-                "bFile": ".obsidian/app.json",
-                "aRef": ""
+                "file": "Go Make.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: app.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Go Make"
             }
           }
         ]
@@ -158,6 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Go Make.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -196,7 +197,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bd2b28539778bfb5",
+  "active": "f24c44c61372c831",
   "lastOpenFiles": [
     "Go Make.md",
     "Go Maps.md",
